@@ -1,17 +1,13 @@
 <!DOCTYPE HTML>
-<!--
-	Strongly Typed by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>Strongly Typed by HTML5 UP</title>
+		<title>Time Meter Time Sheet</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="assets/css/magnific-popup.css" />				
 	</head>
 	<body class="homepage">
 		<!-- Facebook integration -->
@@ -24,7 +20,7 @@
 		  fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));</script>
 		<!-- / -->
-				
+		
 		<div id="page-wrapper">
 			
 			<!-- Header -->
@@ -32,20 +28,13 @@
 					<div id="header" class="container">
 						<!-- Logo -->
 						<h1 id="logo">						
-							<a href="index.html">Product Name</a>
+							<a href="https://play.google.com/store/apps/details?id=com.rk.timemeter">Time Meter</a>
 							<a href="https://play.google.com/store/apps/details?id=com.rk.timemeter">
 							  <img style="vertical-align:middle;padding-bottom:10px;" alt="Android app on Google Play"
 								   src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
 							</a>
 						</h1>
-						<p>Comprehensive product description.</p>
-						<div>							
-							<div class="fb-like" data-href="http://timemeter.io" data-layout="button_count" data-action="recommend" data-show-faces="true" data-share="false" style="overflow:hidden;position:relative"></div>
-							<div style="text-indent: 0px; margin: 0px; padding: 8px 0 0 0; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: top; display: inline-block; width: 90px; height: 30px; background: transparent;"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://timemeter.io" data-size="small" data-hashtags="timetracker,android">Tweet</a></div>
-							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-							<script src="https://apis.google.com/js/platform.js" async defer></script>
-							<g:plusone href="http://timemeter.io" size="medium"></g:plusone>
-						</div>
+						<p>Personal <span class="highlight">time tracker</span> and <span class="highlight">time sheet</span></p>						
 					</div>
 					
 				</div>
@@ -54,21 +43,19 @@
 				<div id="features-wrapper">
 					<section id="features" class="container">
 						
-						<header>
-							<h2>Gentlemen, behold! This is <strong>Strongly Typed</strong>!</h2>
+						<header style="padding-bottom: 0.5em;padding-top: 0.3em;">
+							<h3>Simple and quick time tracking and time recording for anything!</h3>
 						</header>
 						<div class="row">
 							<div class="4u 12u(mobile)">
 
 								<!-- Feature -->
 									<section>
-										<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+										<a href="#" class="image featured popup1"><img src="images/pic01.jpg" alt="" /></a>
 										<header>
-											<h3>Okay, so what is this?</h3>
+											<h3>Quick start</h3>
 										</header>
-										<p>This is <strong>Strongly Typed</strong>, a free, fully responsive site template
-										by <a href="http://html5up.net">HTML5 UP</a>. Free for personal and commercial use under the
-										<a href="http://html5up.net/license">CCA 3.0 license</a>.</p>
+										<p>Clock in and out (punch clock, start time tracking) using colourful 1x1 widgets. It's probably the easiest way to track your time!</p>
 									</section>
 
 							</div>
@@ -76,13 +63,11 @@
 
 								<!-- Feature -->
 									<section>
-										<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+										<a href="#" class="image featured popup2"><img src="images/pic02.jpg" alt="" /></a>
 										<header>
-											<h3>Nice! What is HTML5 UP?</h3>
+											<h3>Reviewing time</h3>
 										</header>
-										<p><a href="http://html5up.net">HTML5 UP</a> is a side project of <a href="http://n33.co">AJ’s</a> (= me).
-										I started it as a way to both test my <strong>skel</strong> framework and sharpen up my coding
-										and design skills a bit.</p>
+										<p>Search and filter, take a quick glance of your day, week and month or export all your time to CSV file and review it in Excel or Google Docs</p>
 									</section>
 
 							</div>
@@ -90,28 +75,43 @@
 
 								<!-- Feature -->
 									<section>
-										<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+										<a href="#" class="image featured popup3"><img src="images/pic03.jpg" alt="" /></a>
 										<header>
-											<h3>Skel? What's that?</h3>
+											<h3>Statistic</h3>
 										</header>
-										<p><strong>Skel</strong> is a lightweight framework for building responsive
-										sites and apps. All of my stuff at <a href="http://html5up.net">HTML5 UP</a> (including this
-										one) are built on this framework.</p>
+										<p>Use various charts to review and analyse where your time goes. Good analysis is important part of successful time management.</p>
 									</section>
 
 							</div>
 						</div>
-						<ul class="actions">
+						<!--ul class="actions">
 							<li><a href="#" class="button icon fa-file">Tell Me More</a></li>
-						</ul>
+						</ul-->
+												<!--ul class="actions">
+							<li><a href="#" class="button icon fa-file">Tell Me More</a></li>
+						</ul-->
 					</section>
 				</div>
 
 				<div id="features-wrapper">
+					<section id="features" class="container">			
+					<div class="row">	
+					<div style="width:100%">
+						<div class="fb-like" data-href="http://timemeter.io" data-layout="button_count" data-action="recommend" data-show-faces="true" data-share="false" style="overflow:hidden;position:relative"></div>
+						<div style="text-indent: 0px; margin: 0px; padding: 8px 0 0 0; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: top; display: inline-block; width: 90px; height: 30px; background: transparent;"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://timemeter.io" data-size="small" data-hashtags="timetracker,android">Tweet</a></div>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+						<script src="https://apis.google.com/js/platform.js" async defer></script>
+						<g:plusone href="http://timemeter.io" size="medium"></g:plusone>
+					</div>
+					</div>
+					</section>
+				</div>
+				
+				<div id="features-wrapper">
 					<section id="features" class="container">
 						
 						<header>
-							<h2>Join <strong>Time Meter</strong> and stay <strong>up to date</strong>!</h2>
+							<h3>Join Time Meter and stay up to date!</h3>
 						</header>
 						<div class="row">
 							<div class="4u 12u(mobile)">
@@ -149,20 +149,18 @@
 				<div id="footer-wrapper">
 					<div id="footer" class="container">
 						<header>
-							<h2>Questions or comments? <strong>Get in touch:</strong></h2>
+							<h3 style="text-align:center">Questions or comments? Get in touch:</h3>
 						</header>
 						<div class="row">							
-							<div>
+							<div style="width:100%">
 								<section>
-									<p>Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phaselamet
-									mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur
-									leo nibh, rutrum eu malesuada.</p>
+									<p style="text-align:center">Join us on social networks or just send an email and we'll try to respond as soon as possible.</p>
 									<div class="row">
 										<div class="3u 12u(mobile)">
 										<section>
 											<ul class="icons">
 												<li class="icon fa-envelope">
-													<a href="#">info@untitled.tld</a>
+													<a href="mailto:kapp.development@gmail.com">Email</a>
 												</li>
 											</ul>
 										</section>
@@ -171,7 +169,7 @@
 										<section>
 											<ul class="icons">												
 												<li class="icon fa-facebook">
-													<a href="#">facebook.com/untitled-tld</a>
+													<a href="http://facebook.com/TimeMeter">Facebook</a>
 												</li>
 											</ul>
 										</section>
@@ -179,8 +177,8 @@
 										<div class="3u 12u(mobile)">
 										<section>
 											<ul class="icons">												
-												<li class="icon fa-facebook">
-													<a href="#">facebook.com/untitled-tld</a>
+												<li class="icon fa-google-plus">
+													<a href="https://plus.google.com/110029841116125732449/posts">Google+</a>
 												</li>
 											</ul>
 										</section>
@@ -188,8 +186,8 @@
 										<div class="3u 12u(mobile)">
 										<section>
 											<ul class="icons">												
-												<li class="icon fa-facebook">
-													<a href="#">facebook.com/untitled-tld</a>
+												<li class="icon fa-twitter">
+													<a href="https://twitter.com/timemeterdroid">Twitter</a>
 												</li>
 											</ul>
 										</section>
@@ -211,16 +209,67 @@
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/skel-viewport.min.js"></script>
-			<script src="assets/js/util.js"></script>
+			<!--script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script-->
+			<!--script src="assets/js/util.js"></script-->
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-			<!-- Google+ integration --
+			<!--script src="assets/js/main.js"></script-->
+			<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script-->
+			<script src="assets/js/jquery.magnific-popup.min.js"></script>
+			<!-- Google+ integration -->
 			<script src="https://apis.google.com/js/platform.js" async defer></script>
 			<!-- / -->
 			<!-- Twitter integration -->
 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 			<!-- / -->
+			<script>
+		$(document).ready(function() {			
+			$('.popup1').magnificPopup({
+				items:
+					[
+						{src: 'images/pic01_large.png'},
+						{src: 'images/pic02_large.png'},
+						{src: 'images/pic03_large.png'},
+						{src: 'images/pic04_large.png'},
+						{src: 'images/pic05_large.png'},
+						{src: 'images/pic06_large.png'}
+					],
+				gallery: {
+				  enabled: true
+				},
+				type: 'image' // this is default type
+			});
+			$('.popup2').magnificPopup({
+				items:
+					[						
+						{src: 'images/pic02_large.png'},
+						{src: 'images/pic03_large.png'},
+						{src: 'images/pic04_large.png'},
+						{src: 'images/pic05_large.png'},
+						{src: 'images/pic06_large.png'},
+						{src: 'images/pic01_large.png'}
+					],
+				gallery: {
+				  enabled: true
+				},
+				type: 'image' // this is default type
+			});
+			$('.popup3').magnificPopup({
+				items:
+					[						
+						{src: 'images/pic03_large.png'},
+						{src: 'images/pic04_large.png'},
+						{src: 'images/pic05_large.png'},
+						{src: 'images/pic06_large.png'},
+						{src: 'images/pic01_large.png'},
+						{src: 'images/pic02_large.png'}
+					],
+				gallery: {
+				  enabled: true
+				},
+				type: 'image' // this is default type
+			});
+		});
+		</script>
 	</body>
 </html>
