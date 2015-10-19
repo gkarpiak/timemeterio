@@ -2498,20 +2498,15 @@
 		padding:0.2em 0.4em 0.2em 0.6em;
 	}
 	
-	/* This gets Google to fall into place */
-	.social {
-		font-size: 1px;
+	.social{
+		float:right;
+		border:solid 1px green;
 	}
-
-	/* This gets Facebook to fall into place */
-	.social iframe {
-		vertical-align: middle;
-	}
-
-	/* Set an optional width for your button wrappers */
-	.social span {
-		display: inline-block;
-		width: 110px;
+	.facebook, .twitter, .google {
+		float:left;
+		height:100px;
+		overflow:hidden;
+		border-left:solid 1px red;
 	}
 
 	/* Adjust the widths individually if you like */
@@ -2525,3 +2520,4 @@
 	
 	.social .facebook {
 		width: 120px;
+	}
