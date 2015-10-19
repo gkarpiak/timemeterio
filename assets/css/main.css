@@ -2499,23 +2499,22 @@
 	}
 	
 	.social{
-		float:right;
-		border:solid 1px green;
 	}
 	.facebook, .twitter, .google {
 		float:left;
 		height:100px;
-		overflow:hidden;
-		border-left:solid 1px red;
+		overflow:hidden;		
 	}
 
 	/* Adjust the widths individually if you like */
 	.social .google {
 		width: 75px;
+		padding-top: 8px;
 	}
 	
 	.social .twitter {
 		width: 90px;
+		padding-top: 6px;
 	}
 	
 	.social .facebook {
