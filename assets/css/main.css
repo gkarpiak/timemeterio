@@ -1,5 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,500|Roboto+Slab:500");
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Roboto:300|Roboto+Slab:500|Roboto+Condensed:500");
 /*
 	Strongly Typed by HTML5 UP
 	html5up.net | @n33co
@@ -1092,7 +1092,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 600;
+		font-weight: 500;
 		text-transform: uppercase;
 		color: #999;
 	}
@@ -1130,7 +1130,7 @@
 			}
 
 	strong, b {
-		font-weight: 600;
+		font-weight: 500;
 		color: #666;
 	}
 
@@ -1328,7 +1328,7 @@
 /* Form */
 
 	form label {
-		font-weight: 600;
+		font-weight: 500;
 		text-transform: uppercase;
 		color: #999;
 		display: block;
@@ -1456,7 +1456,7 @@
 		outline: 0;
 		font-size: 1em;
 		box-shadow: 0.125em 0.175em 0 0 rgba(0, 0, 0, 0.125);
-		font-weight: 600;
+		font-weight: 500;
 		text-align: center;
 	}
 
@@ -2326,7 +2326,7 @@
 					}
 
 					#navPanel .link.depth-0 {
-						font-weight: 600;
+						font-weight: 500;
 						color: #fff;
 					}
 
@@ -2493,6 +2493,35 @@
 	}
 	
 	.highlight {
+		white-space: nowrap;
 		background-color:#60b9ff;
-		padding:0.2em 0.4em 0.2em 0.4em;
+		padding:0.2em 0.4em 0.2em 0.6em;
 	}
+	
+	/* This gets Google to fall into place */
+	.social {
+		font-size: 1px;
+	}
+
+	/* This gets Facebook to fall into place */
+	.social iframe {
+		vertical-align: middle;
+	}
+
+	/* Set an optional width for your button wrappers */
+	.social span {
+		display: inline-block;
+		width: 110px;
+	}
+
+	/* Adjust the widths individually if you like */
+	.social .google {
+		width: 75px;
+	}
+	
+	.social .twitter {
+		width: 90px;
+	}
+	
+	.social .facebook {
+		width: 120px;
