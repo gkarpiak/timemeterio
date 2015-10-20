@@ -2509,7 +2509,7 @@
 	/* Adjust the widths individually if you like */
 	.social .google {
 		width: 75px;
-		padding-top: 8px;
+		padding-top: 0.43em;
 	}
 	
 	.social .twitter {
