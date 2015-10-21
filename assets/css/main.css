@@ -2502,9 +2502,10 @@
 	}
 	.facebook, .twitter, .google {
 		float:left;
-		height:100px;
+		height:40px;
 		overflow:hidden;
 		font-size: 12px;
+		padding-left: 18px;
 		display:table;
 	}
 
