@@ -2504,7 +2504,7 @@
 		float:left;
 		height:100px;
 		overflow:hidden;
-		font-size: 12pt;
+		font-size: 12px;
 		display:table;
 	}
 
@@ -2516,7 +2516,7 @@
 	
 	.social .twitter {
 		width: 90px;
-		margin-top: 8px;
+		margin-top: 7px;
 	}
 	
 	.social .facebook {
