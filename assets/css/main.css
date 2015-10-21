@@ -2511,16 +2511,17 @@
 	/* Adjust the widths individually if you like */
 	.social .google {
 		width: 75px;
-		padding-top: 8px;
+		margin-top: 8px;
 	}
 	
 	.social .twitter {
 		width: 90px;
-		padding-top: 6px;
+		margin-top: 8px;
 	}
 	
 	.social .facebook {
 		width: 124px;
+		padding-bottom: 1px;
 	}
 	
 	.vert {
