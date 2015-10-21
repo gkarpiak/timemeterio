@@ -1840,7 +1840,7 @@
 			}
 
 			#footer-wrapper {
-				padding: 6em 20px 8em 20px;
+				padding: 6em 20px 2em 20px;
 			}
 
 		/* Header */
@@ -2076,7 +2076,7 @@
 			}
 
 			#footer-wrapper {
-				padding: 4em 20px 6em 20px;
+				padding: 4em 20px 0.5em 20px;
 			}
 
 		/* Header */
@@ -2399,7 +2399,7 @@
 			}
 
 			#footer-wrapper {
-				padding: 4em 20px 3em 20px;
+				padding: 4em 20px 0.5em 20px;
 			}
 
 		/* Header */
