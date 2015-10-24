@@ -2525,8 +2525,34 @@
 		padding-bottom: 1px;
 	}
 	
+	.social .space {
+		width:18px;
+		float:left;
+		display:table;
+		overflow:hidden;
+		height:2px
+	}
+	
 	.vert {
 		display: table-cell;
 		vertical-align: bottom;
+	}
+	
+	.summary {		
+	}
+	.summary .intro {
+		display:inline-block;
+		padding:0.05em 0 0.05em 0;		
+		margin-right: 0.4em;
+		margin-top: 0.6em;
+	}
+	.summary .word {
+		display:inline-block;		
+		padding:0.05em 0.4em 0.05em 0.5em;
+		margin-right: 0.1em;
+		margin-left: 0.1em;
+		margin-top: 0.6em;
+		white-space:nowrap;
+		background:#efefef;
 	}
 	
